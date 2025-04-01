@@ -52,6 +52,7 @@ export const GiftItem: FC<Props> = ({ gift, onChange }) => {
             width="197px"
             height="197px"
             position="relative"
+            // @ts-ignore
             background={`radial-gradient(circle, ${currentBackdrop?.hex.centerColor} 20%, ${currentBackdrop?.hex.edgeColor} 80%)`}
           >
             <Symbol src={symbolUrl} />
